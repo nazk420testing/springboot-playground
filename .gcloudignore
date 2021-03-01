@@ -1,0 +1,13 @@
+.git
+.gitignore
+.gcloudignore
+/build
+/.gradle
+/.idea
+#!include:.gitignore
+
+!base-java-springboot.jar
+!gradle.properties
+!build.gradle
+
+.cloudbuild.yaml
